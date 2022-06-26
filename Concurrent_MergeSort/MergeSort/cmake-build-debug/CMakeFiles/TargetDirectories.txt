@@ -1,0 +1,3 @@
+/home/pedro/Desktop/MergeSort/cmake-build-debug/CMakeFiles/MergeSort.dir
+/home/pedro/Desktop/MergeSort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pedro/Desktop/MergeSort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
