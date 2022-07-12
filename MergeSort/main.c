@@ -10,6 +10,8 @@
 #define ull unsigned long long int
 // tamanho máximo de um inteiro do vetor
 #define MAX 99999
+// tamanho do bloco considerado por cada threads
+#define BLOCK_SIZE SIZE / NTHREADS
 
 // tamanho do vetor
 const ull SIZE =  1000000;
@@ -160,6 +162,7 @@ ull generate_random_number() {
  * informações sobre o mergesort sequencial
  * as linhas do arquivo são do tipo (TAMANHO_DO_VETOR, TEMPO_PARA_ORDENÁ-LO)
  */
+/*
 void generate_data_about_algorithm_sequential() {
     FILE *file;
     ull max = 430000000;
@@ -191,13 +194,14 @@ void generate_data_about_algorithm_sequential() {
 
     return 0;
 }
-
+*/
 /**
  * FUNÇÃO AUXILIAR USADA APENAS PARA TESTE
  * escreve em um arquivo o tamanho n do vetor e o tempo levado para ordená-lo
  * informações sobre o mergesort concorrente
  * as linhas do arquivo são do tipo (TAMANHO_DO_VETOR, TEMPO_PARA_ORDENÁ-LO)
  */
+/*
 void generate_data_about_algorithm_concurrent() {
     FILE *file;
     ull max = 430000000;
@@ -244,7 +248,7 @@ void generate_data_about_algorithm_concurrent() {
 
     return 0;
 }
-
+*/
 /*
  * função principal
  * gera dois vetores, ordenando um com o mergesort sequencial e o outro com o mergesort concorrente
